@@ -1,0 +1,29 @@
+/**
+ * ThumbImages.css
+ *
+ * Stylize the imag thumbs
+ * @author: [[w:User:Fubuki風吹]]
+ */
+
+/* outer layer */
+.WikiaArticle .article-thumb {
+    border: 2px solid #000;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 3px 6px 3px 4px;
+}
+/* inner image */
+.WikiaArticle .article-thumb .image img {
+    border: 1px solid #000;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+/* caption */
+.WikiaArticle .article-thumb .caption {
+    text-align: center;
+    color: inherit;
+}
+/* remove attribution */
+.WikiaArticle .article-thumb .attribution {
+    display: none !important;
+}
